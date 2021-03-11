@@ -1,7 +1,7 @@
 
 // Min()
 exports.min = function min (array) {
-if (array === 0 || array === undefined){
+if (array.length === 0 || array === undefined){
   return 0;
 }
 let min = array[0];
@@ -17,7 +17,7 @@ return min;
 // Max()
 exports.max = function max (array) {
 
-if (array === 0 || array === undefined){
+if (array.length === 0 || array === undefined){
   return 0;
 }
 
